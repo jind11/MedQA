@@ -14,9 +14,11 @@ This is the data and baseline source code for the paper: [Jin, Di, et al. "What 
 
 ## Data
 
-The data that contains both the QAs and textbooks can be downloaded from [this google drive folder](https://drive.google.com/file/d/1oujwwaLL0MnkbwUy4gH325ulaf2HnqCc/view?usp=sharing). A bit of details of data are explained as below:
+The data that contains both the QAs and textbooks can be downloaded from [this google drive folder](https://drive.google.com/file/d/1ImYUSLk9JbgHXOemfvyiDiirluZHPeQw/view?usp=sharing). A bit of details of data are explained as below:
 
-- For QAs, we have three sources: US, Mainland of China, and Taiwan District, which are put in folders, respectively. All files for QAs are in jsonl file format, where each line is a data sample as a dict. The "XX_qbank.jsonl" files contain all data samples while we also provide an official random split into train, dev, and test sets. Those files in the "metamap" folders are extracted medical related phrases using the [Metamap](https://metamap.nlm.nih.gov/) tool.
+- For QAs, we have three sources: US, Mainland of China, and Taiwan District, which are put in folders, respectively. All files for QAs are in jsonl file format, where each line is a data sample as a dict. The "XX_qbank.jsonl" files contain all data samples while we also provide an official random split into train, dev, and test sets. Those files in the "metamap" folders are extracted medical related phrases using the [Metamap](https://metamap.nlm.nih.gov/) tool. 
+
+- For QAs, we also include the "4_options" version in for US and Mainland of China since we reported results for 4 options in the paper.
 
 - For textbooks, we have two languages: English and simplified Chinese. For simplified Chinese, we provide two kinds of sentence spliting: one is split by sentences, and the other is split by paragraphs. 
 
