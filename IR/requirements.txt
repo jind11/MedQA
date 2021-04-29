@@ -1,0 +1,7 @@
+simplejson
+flask
+flask_cors
+elasticsearch_dsl
+gensim
+numpy
+nltk
